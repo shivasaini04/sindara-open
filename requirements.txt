@@ -1,0 +1,7 @@
+# Optional offline production tools. The Remotion demos need only npm ci.
+numpy>=2.2,<3
+scipy>=1.15,<2
+Pillow>=11,<13
+soundfile>=0.13,<1
+pyloudnorm>=0.1.1,<1
+pedalboard>=0.9,<1

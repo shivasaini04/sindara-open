@@ -1,0 +1,33 @@
+{
+  "name": "sindara-open",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "description": "An agent-guided video production toolkit built on Remotion: code-drawn scenes, shared timing, audio tools and review.",
+  "license": "MIT",
+  "author": "Shiva Saini",
+  "repository": {"type": "git", "url": "https://github.com/shivasaini04/sindara-open.git"},
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm run typecheck && npm test",
+    "stills": "node scripts/stills.mjs",
+    "render": "remotion render src/index.ts Launch out/launch.mp4 --concurrency=2 --pixel-format=yuv420p",
+    "render:explainer": "remotion render src/index.ts Explainer out/explainer.mp4 --concurrency=2 --pixel-format=yuv420p",
+    "render:data": "remotion render src/index.ts DataPulse out/data-pulse.mp4 --concurrency=2 --pixel-format=yuv420p",
+    "new": "node scripts/new.mjs",
+    "doctor": "node scripts/doctor.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.527",
+    "@remotion/bundler": "4.0.527",
+    "@remotion/renderer": "4.0.527",
+    "remotion": "4.0.527",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {"@types/react": "19.2.14", "typescript": "5.9.3"},
+  "overrides": {"zod": "4.6.6"}
+}

@@ -1,0 +1,5 @@
+{
+  "description": "Synthetic weekly counts for a fictional community. Demonstration data, not real observations.",
+  "unit": "projects",
+  "values": [{"label": "MON", "value": 18}, {"label": "TUE", "value": 26}, {"label": "WED", "value": 22}, {"label": "THU", "value": 39}, {"label": "FRI", "value": 47}, {"label": "SAT", "value": 65}, {"label": "SUN", "value": 84}]
+}

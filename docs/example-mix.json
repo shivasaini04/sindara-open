@@ -1,0 +1,12 @@
+{
+  "duration": 12,
+  "sfx_dir": "public/local/sfx",
+  "sfx": [
+    {"t": 0.1, "name": "stamp", "gain_db": -12},
+    {"t": 3.6, "name": "whoosh_m", "gain_db": -16},
+    {"t": 4.0, "name": "ding", "gain_db": -16},
+    {"t": 7.6, "name": "whoosh_m", "gain_db": -16},
+    {"t": 8.0, "name": "stamp", "gain_db": -12}
+  ],
+  "master": {"lufs": -14, "true_peak": -2, "fade_out": 0.25}
+}

@@ -1,0 +1,10 @@
+{
+  "fps": 30,
+  "duration": 12,
+  "events": [{"t": 0, "type": "step"}, {"t": 4, "type": "step"}, {"t": 8, "type": "step"}],
+  "captions": [
+    {"s": 0, "e": 3.8, "text": "Write: choose one idea per shot."},
+    {"s": 4, "e": 7.8, "text": "Measure: put events on a real timeline."},
+    {"s": 8, "e": 11.8, "text": "Animate: every frame is a function of time."}
+  ]
+}
